@@ -1,0 +1,31 @@
+#profilePageContainer {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background-color: white;
+}
+
+#profilePageForm {
+    margin-top: 20px;
+}
+
+#usernameInput, #fullNameInput, #emailInput, #profilePageUpdateBtn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#profilePageUpdateBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#profilePageUpdateBtn:hover {
+    background-color: #0056b3;
+}

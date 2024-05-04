@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  .container.mt-3 {
+    flex: 1;
+  }
+  
+  .footer {
+    background-color: #f5f5f5; 
+    padding: 1rem 0;
+    text-align: center;
+  }  

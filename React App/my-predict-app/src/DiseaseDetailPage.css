@@ -1,0 +1,53 @@
+.disease-detail-page {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.disease-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  /* Space between elements */
+    margin-top: 20px;
+}
+
+.disease-images {
+    flex: 1 1 250px;  
+    display: flex;
+    flex-direction: column;
+    gap: 25px;  /* Reduced gap */
+    padding-right: 7px;
+}
+
+.disease-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;  /* Soften image corners */
+}
+
+.disease-text {
+    flex: 3 1 750px; 
+    padding-left: 40px; 
+}
+
+.disease-text h2 {
+    margin-top: 20px;
+}
+
+.disease-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.disease-text ul li {
+    margin-bottom: 10px; 
+    padding-left: 20px;
+    position: relative;
+}
+
+.disease-text ul li::before {
+    content: '•';
+    color: green;  /* Bullet point color */
+    position: absolute;
+    left: 0;
+}

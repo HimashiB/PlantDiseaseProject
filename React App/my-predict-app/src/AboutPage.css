@@ -1,0 +1,42 @@
+#aboutContainer {
+  margin-top: -1rem; /* Adjust the top margin of the about page container */
+  padding-top: 1.5rem;
+}
+
+#aboutContent {
+  padding-right: 2rem; /* Right padding for the content */
+  margin-top: 1.5rem;
+}
+
+/* Headings */
+
+/* Paragraph Text */
+#aboutStoryText, #aboutMissionText, #aboutVisionText,#contactSection {
+  text-align: justify;
+  margin-bottom: 2rem; /* Reduced bottom margin */
+  margin-right: 7rem;
+}
+
+/* Horizontal Line */
+#titleLine {
+  width: 700px;
+  height: 1.8px;
+  background-color: #e1e1e3;
+  margin-bottom: 1rem; /* Reduced bottom margin */
+}
+
+/* Image Container */
+#aboutImageContainer {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 50vh; 
+}
+
+#companyImage {
+  max-width: 100%;
+  height: auto;
+  margin-top: -2rem; /* Negative margin to pull the image upwards */
+  padding-top: 5.5rem;
+  margin-left: 5rem;
+}

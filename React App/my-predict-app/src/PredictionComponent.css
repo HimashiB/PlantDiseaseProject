@@ -1,0 +1,78 @@
+.prediction-result {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .img-preview {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .btn-outline-secondary {
+    border-color: #28a745;
+    color: #28a745;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    box-shadow: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+  }
+  
+  .input-group .form-control {
+    border-right: 0;
+  }
+  
+  /* Align button with input */
+  .input-group button {
+    border-left: 0;
+  }
+
+  .img-fluid {
+    max-width: 100%; 
+    height: auto; /* Maintains the aspect ratio of the image */
+  }
+
+  #aiEngineCard {
+    max-height: 500px; 
+    max-width: 350px; /* Make the card thinner */
+    margin-right: 7em; /* Push the card to the right */
+    margin-left: 20px; /* Add space on the left  */
+   
+  }
+  
+  #aiEngineInfoSection {
+    display: flex;
+    justify-content: flex-end;
+  }   
+  
+
+  #aiEngineCardText, #aiEngineCardText2 {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  #predictButton {
+    padding: 0.25rem 2rem; /* Makes the button thinner and longer */
+    font-size: 1.1rem; 
+  }

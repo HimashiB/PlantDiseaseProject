@@ -1,0 +1,82 @@
+/* Header Section with Background Image */
+.header-section {
+  background-image: url('./images/frontpage.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 20px; 
+}
+
+/* Information and Problems Section */
+.info-problems-container {
+  text-align: justify;
+  padding: 2.5rem 0;
+}
+
+
+.custom-btn {
+  background-color: #004a99; 
+  color: white;
+  border-radius: 1.6rem;
+  padding: 0.5rem 2rem;
+  text-decoration: none; 
+}
+/* Problem Cards Section */
+.problems-section {
+  padding-bottom: 2rem; 
+}
+
+
+#late-blight-card .card, #early-blight-card .card {
+  height: 90%;
+  border: none; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+
+#late-blight-card .card-img-top, #early-blight-card .card-img-top {
+  height: 180px; /* image height */
+  object-fit: cover; 
+}
+
+#late-blight-card .card-body, #early-blight-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.card-title, .card-text {
+  margin-bottom: 0.5rem;
+}
+
+
+.learn-more-btn {
+  margin-top: auto; 
+  background-color: #007bff;
+  color: white;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+
+.card-title {
+  font-size: 1.25rem; 
+}
+
+.card-text {
+  font-size: 1rem; 
+  min-height: 3rem; 
+}
+
+#homePageProblemsSection .row {
+  justify-content: center; /* Center the cards horizontally */
+}

@@ -1,0 +1,133 @@
+.reg-page-container {
+    display: flex;
+    min-height: 60vh;
+}
+
+.reg-image-section {
+    flex: 1; 
+    display: flex; /* to center the image */
+    align-items: center; /* vertically center */
+    justify-content: center; /* horizontally center */
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+
+.reg-plant-image {
+    max-width: 100%; 
+    height: 100%; 
+    max-height: 350vh;
+    padding-top: 0;
+    padding-bottom: 7rem;
+    margin-left: -35%;
+
+}
+
+.reg-form-section {
+    flex-basis: 60%;
+    padding: 3rem;
+    padding-top: 0;
+    padding-bottom: 0rem;
+}
+
+
+.reg-form-container {
+    flex: 2; 
+    display: flex;
+    flex-direction: column; /* stack form items vertically */
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.reg-brand-title{
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.reg-form-container p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.reg-form-container input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.reg-actions {
+    margin-bottom: 1rem;
+}
+
+.reg-actions button {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.separator {
+    text-align: center;
+    margin: 1rem 0;
+    position: relative;
+}
+
+.separator::before,
+.separator::after {
+    content: "";
+    border-top: 1px solid #eee;
+    top: 50%;
+    position: absolute;
+    width: 45%;
+}
+
+.separator::before {
+    left: 0;
+}
+
+.separator::after {
+    right: 0;
+}
+
+.google-signin {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-signin img {
+    margin-right: 8px;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup-link span {
+    color: #007bff;
+    cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+    .login-image-section {
+        flex-basis: 40%;
+    }
+    .login-form-section {
+        flex-basis: 60%;
+    }
+}
